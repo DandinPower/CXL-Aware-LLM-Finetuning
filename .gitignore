@@ -1,0 +1,14 @@
+# Development environment
+.vscode
+.venv
+venv
+__pycache__
+snap_shots
+
+# Distribution / packaging
+build
+*.egg-info
+dist
+
+# Experimental logs
+*.log

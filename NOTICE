@@ -1,0 +1,16 @@
+CXL-Aware LLM Finetuning
+Copyright 2026 Yong-Cheng Liaw <yongchengliaw.cs14@nycu.edu.tw>
+
+Except where a file or third-party component states a different license, this
+repository is licensed under the Apache License, Version 2.0.
+
+Third-party notices:
+
+- utils/offload_grad_checkpoint.py is adapted from Unsloth Zoo's
+  unsloth_zoo/gradient_checkpointing.py and is licensed under
+  LGPL-3.0-or-later. The original copyright belongs to Daniel Han-Chen,
+  Michael Han-Chen, and the Unsloth team. Local modifications are copyright
+  2026 Yong-Cheng Liaw.
+- extensions/deepspeed-numa-aware contains modified DeepSpeed
+  code. Those components retain their original copyright notices, license
+  files, and SPDX license identifiers.
